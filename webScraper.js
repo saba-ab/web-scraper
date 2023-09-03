@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 const url = "https://www.ambebi.ge/";
-const keyWord = "საბა";
+const keyWord = " ";
 async function main() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
